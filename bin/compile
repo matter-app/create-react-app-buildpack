@@ -25,7 +25,7 @@ BP_DIR=`cd $(dirname $0); cd ..; pwd`
 
 echo "${BUILD_DIR}"
 echo "${ENV_DIR}"
-echo `pwd`
+echo "${BP_DIR}"
 
 # Use architecture of multi-buildpack to compose behavior.
 # https://github.com/heroku/heroku-buildpack-multi
